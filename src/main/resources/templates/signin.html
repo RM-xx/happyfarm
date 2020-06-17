@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html  lang="en">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">        
+        
+        <title>登录</title>
+        
+		<link rel="shortcut icon" type="image/icon" href="/logo/favicon.png"/>
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/bootsnav.css" >
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+    </head>
+	
+	<body>
+		<section class="signin">
+			<div class="container-fluid">
+				<div class="row">
+
+					<div class="col-sm-4">
+						<div class="single-sign">
+							<div class="sign-bg">
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-8">
+						<div class="single-sign">
+							<div class="sign-content">
+								<h2>登录</h2>
+								<form method="GET" action="check">
+									<div class="signin-form">
+										<div class=" ">
+											<div class=" ">
+												<div class="form-group">
+													<label for="signin_form">账号</label>
+													<input type="code" name="code" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" class="form-control" placeholder="请输入登录ID">
+												</div>
+												<div class="form-group">
+													<label for="signin_form">密码</label>
+													<input type="password" name="password" class="form-control" placeholder="请输入登录密码">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="signin-password">
+										<div class="awesome-checkbox-list">
+											<ul class="unstyled centered">
+
+												<li>
+													<a href="#">忘记密码？</a>
+												</li>
+
+											</ul>
+										</div>
+									</div>
+
+									<div class="signin-footer">
+										<button type="submit" class="btn signin_btn" data-toggle="modal" data-target=".signin_modal">
+										登  录
+										</button>
+										<p>
+											还没有账号？
+											 <a href="/index/registerView">注册</a>
+										</p>
+									</div>
+								</form>
+							</div>			
+				</div>
+			</div>
+		</section>
+		
+		<footer class="footer-copyright">
+			<div>
+				<i class="fa fa-angle-double-up return-to-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+			</div>
+		</footer>
+
+		<script src="assets/js/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/bootsnav.js"></script>
+		<script src="assets/js/jquery.sticky.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="assets/js/custom.js"></script>		
+	
+    </body>
+	
+</html>
